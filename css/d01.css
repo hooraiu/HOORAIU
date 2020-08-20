@@ -1,0 +1,14 @@
+h2{
+    color: crimson;
+    font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: darkgrey 2px 2px 2px ;
+}
+img{
+    padding: 10px ;
+    margin: 5px;
+    border: whitesmoke solid  thick;
+}
+input{
+    color: red ;
+    border: darkred  solid ;
+}

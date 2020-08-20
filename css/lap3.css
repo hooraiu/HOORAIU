@@ -1,0 +1,24 @@
+h6{
+    color: rgb(207, 130, 130);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40%;
+}
+.nen{
+    width: 100%;
+    height: 90%;
+    padding-top: 10%;
+    color: rgb(36, 34, 34);
+    background :rgb(233, 215, 192) ;
+     
+}
+h2{
+    font-size: 180%;
+    margin-left: 250px;
+    text-shadow:3px 3px 3px chocolate;
+}
+.gach{
+    margin-left: 35%;
+}
+.date{
+    margin-left: 43%;
+}

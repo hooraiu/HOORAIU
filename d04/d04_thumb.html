@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .small{
+            width: 200px;
+            height: 150px;
+        }
+        .big{
+            width: 500px;
+            height: 350px;
+        }
+        #galary{
+            position: relative;
+        }
+        #galary ul{
+            list-style-type: none;
+            width: 450px ;
+        }
+        #galary span{
+            display: none;
+            position: absolute ;
+            top:10px ;
+            left:450px ;
+        }
+        #galary li{
+            display: inline;
+            padding: 5px;
+            float: left;
+        }
+        #galary li:hover span{
+            display:inline ;
+            padding: 10px;
+               
+        }
+    </style>
+</head>
+<body>
+    <div id="galary">                                       
+        <ul > <a href="../images/easy-to-cook-recipes.jpg" target="_blank"> <!--kich chuot vao se ra link-->
+            <li><img src="../images/bánh dẻo1.jfif" alt="" class="small">
+            <span>
+            <img src="../images/bánh dẻo1.jfif" alt=""class="big"></span>
+        </a>
+        </li>
+        <li><img src="../images/banhdeo2.jfif" alt=""class="small">
+            <span>
+            <img src="../images/banhdeo2.jfif" alt=""class="big"></span></li>
+        <li><img src="../images/banhdeo3.jfif" alt=""class="small">
+            <span>
+            <img src="../images/banhdeo3.jfif" alt=""class="big"></span></li>
+        <li><img src="../images/bánh_nuingws.jfif" alt=""class="small">
+            <span>
+            <img src="../images/bánh_nuingws.jfif" alt=""class="big"></span></li>
+
+           </ul>
+</div>
+    
+</body>
+</html>
